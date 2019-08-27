@@ -7,3 +7,9 @@ body {
     /* Black background for the screen */
     background: #000;
 }
+
+#text {
+    color: #fadf2c;
+    width: 50%;
+    margin: auto;
+}
