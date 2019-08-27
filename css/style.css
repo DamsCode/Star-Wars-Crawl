@@ -6,10 +6,37 @@ body {
     overflow: hidden;
     /* Black background for the screen */
     background: #000;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-align: center;
 }
 
 #text {
+    width: 70%;
+    top: -50px;
     color: #fadf2c;
-    width: 50%;
     margin: auto;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: rotateX(90deg) translateY(200px);
+}
+
+.perspective {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    perspective: 250px;
+}
+
+@keyframes text {
+    0% {
+        transform: rotateX(90deg) translateY(340px);
+    }
+    100% {
+        transform: rotateX(90deg) translateY(-344px);
+    }
+}
+
+
 }
