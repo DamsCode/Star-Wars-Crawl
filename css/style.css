@@ -6,6 +6,7 @@ body {
     overflow: hidden;
     /* Black background for the screen */
     background: #000;
+    background-image: url("https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     font-size: 14px;
     font-weight: 900;
     font-family: 'Pathway Gothic One', sans-serif;
