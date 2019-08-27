@@ -12,12 +12,14 @@ body {
     font-family: 'Pathway Gothic One', sans-serif;
     text-align: center;
 }
-h2{
+
+h2 {
     color: #107283;
     margin-top: 300px;
     padding: 50px;
     font-size: 70px;
 }
+
 #text {
     width: 70%;
     top: -50px;
@@ -45,15 +47,16 @@ h2{
     }
 }
 
-.fade-out{
+.fade-out {
     animation: fadeIn ease 10s;
 }
 
-@keyframes fadeIn{
+@keyframes fadeIn {
     0% {
-      opacity:1;
+        opacity: 1;
     }
     100% {
-      opacity:0;
+        opacity: 0;
+        display: none;
     }
-  }
+}
